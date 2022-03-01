@@ -10,9 +10,6 @@ function App() {
 
   
   const saveMessages = (messages, HTMLString) => {
-    
-    console.log("message saved",messages,HTMLString);
-    localStorage.setItem('chat_messages', JSON.stringify(messages));
   };
   const loadMessages = () => {
     
@@ -23,10 +20,6 @@ function App() {
     return messages;
 
     return "";
-
-
-
-   
   };
   
   return (
